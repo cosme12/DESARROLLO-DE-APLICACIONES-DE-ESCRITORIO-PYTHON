@@ -1,2 +1,2 @@
-# Curso-GUI---IPAP
+# Curso GUI - IPAP
 Material para el curso DESARROLLO DE APLICACIONES DE ESCRITORIO PYTHON - IPAP
