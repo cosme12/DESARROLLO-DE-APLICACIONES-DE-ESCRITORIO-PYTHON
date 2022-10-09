@@ -15,7 +15,7 @@ def loop():
     """
     Loop de la ventana de menú que capta los eventos al apretar las opciones
     """
-    sg.theme('SystemDefault')
+    
 
     window = ingresar_expediente.build()
 
