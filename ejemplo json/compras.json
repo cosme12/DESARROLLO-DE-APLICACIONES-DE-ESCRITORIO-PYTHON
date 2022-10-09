@@ -1,0 +1,77 @@
+{
+    "1": {
+        "proveedor": "PROVEEDOR 1",
+        "fecha": "01/10/2021",
+        "total": 14772.0
+    },
+    "2": {
+        "proveedor": "PROVEEDOR 1",
+        "fecha": "01/10/2021",
+        "total": 1332.0
+    },
+    "3": {
+        "proveedor": "PROVEEDOR 2",
+        "fecha": "14/10/2021",
+        "total": 1395.0
+    },
+    "4": {
+        "proveedor": "PROVEEDOR 3",
+        "fecha": "16/10/2021",
+        "total": 1760.0
+    },
+    "5": {
+        "proveedor": "PROVEEDOR 3",
+        "fecha": "16/10/2021",
+        "total": 900.0
+    },
+    "6": {
+        "proveedor": "PROVEEDOR 1",
+        "fecha": "19/10/2021",
+        "total": 4320.0
+    },
+    "7": {
+        "proveedor": "PROVEEDOR 1",
+        "fecha": "19/10/2021",
+        "total": 3312.0
+    },
+    "8": {
+        "proveedor": "PROVEEDOR 1",
+        "fecha": "19/10/2021",
+        "total": 648.0
+    },
+    "9": {
+        "proveedor": "PROVEEDOR 1",
+        "fecha": "19/10/2021",
+        "total": 648.0
+    },
+    "10": {
+        "proveedor": "PROVEEDOR 1",
+        "fecha": "19/10/2021",
+        "total": 648.0
+    },
+    "11": {
+        "proveedor": "PROVEEDOR 4",
+        "fecha": "19/10/2021",
+        "total": 36000.0
+    },
+    "12": {
+        "proveedor": "PROVEEDOR 5",
+        "fecha": "19/10/2021",
+        "total": 4920.0
+    },
+    "13": {
+        "proveedor": "PROVEEDOR 6",
+        "fecha": "20/10/2021",
+        "total": 2064.0
+    },
+    "14": {
+        "proveedor": "PROVEEDOR 5",
+        "fecha": "20/10/2021",
+        "total": 3529.0
+    },
+    "15": {
+        "proveedor": "PROVEEDOR 4",
+        "fecha": "20/10/2021",
+        "total": 40900.0
+    }
+}
