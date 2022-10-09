@@ -4,7 +4,7 @@ from src.component import ingresar_expediente
 
 def start():
     """
-    Lanza la ejecución de la ventana del menú
+    Lanza la ejecución de la ventana
     """
     window = loop()
     window.close()

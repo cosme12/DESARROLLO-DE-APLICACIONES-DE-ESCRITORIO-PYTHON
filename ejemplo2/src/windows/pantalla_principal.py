@@ -13,7 +13,7 @@ def build():
     font16 = ("Calibri Italic", 16)
 
     layout = [
-        [sg.Text(f'Expedientes del día {date.today().strftime("%d/%m/%Y")}', font=(font.font_name, 20), size=(30, 1))],
+        [sg.Text('Expedientes del día {date.today().strftime("%d/%m/%Y")}', font=(font.font_name, 20), size=(30, 1))],
         [sg.HorizontalSeparator()],
         [sg.Button("Ingresar expendiente", key='-INGRESAR_EXPEDIENTE-', tooltip='Permite ingresar un expediente nuevo',
                       font=(font.font_name, 11))
@@ -27,6 +27,6 @@ def build():
             sg.Text('0,00', background_color="#000000", text_color="#ffffff", font=font16, size=(10, 1),
                     justification="right", key="-TEXTO_TOTAL-")]
     ]
-    window = sg.Window(f'Sistema Integral v1.0', layout=layout, resizable=True)
+    window = sg.Window('Sistema Integral v1.0', layout=layout, resizable=True)
 
     return window

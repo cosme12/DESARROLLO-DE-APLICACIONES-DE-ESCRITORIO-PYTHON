@@ -1,6 +1,4 @@
-from datetime import date
 import PySimpleGUI as sg
-from src.consts import font
 
 
 def build():
@@ -11,15 +9,14 @@ def build():
     sg.theme('SystemDefault')
 
     layout = [
-        [sg.Text(f'Expedientes del día', font=(font.font_name, 20), size=(30, 1))],
+        [sg.Text("Expedientes del dia")],
         [sg.HorizontalSeparator()],
-        [sg.Button("Ingresar expendiente", key='-INGRESAR_EXPEDIENTE-', font=(font.font_name, 11))],
-        [sg.Table(values=[["-", "-", "-", "-", "-", "-"]], key="-TABLA_VENTAS_CAJA-", justification="c",
-                  headings=[" Código ", "     Empresa     ", "   CUIT   ", " Teléfono ", " Categoría "],
-                  row_height=20, num_rows=10, header_background_color="#FF8000")],
-        [sg.Text('Total')]
+        [sg.Button("Ingresar expendiente", key="-INGRESAR_EXPEDIENTE-")],
+        [sg.Table(values=[["-", "-", "-", "-", "-", "-"]], key="-TABLA_EXPEDIENTES-", justification="c",
+            headings=[" Código ", "     Empresa     ", "   CUIT   ", " Teléfono ", " Categoría "],
+            row_height=20, num_rows=10, header_background_color="#FF8000")],
     ]
-    
-    window = sg.Window(f'Sistema Integral v1.0', layout=layout, resizable=True)
+
+    window = sg.Window("Sistema Integral v1.0", layout=layout, resizable=True)
 
     return window

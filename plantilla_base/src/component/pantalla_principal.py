@@ -4,7 +4,7 @@ from src.windows import pantalla_principal
 
 def start():
     """
-    Lanza la ejecución de la ventana del menú
+    Lanza la ejecución de la ventana
     """
     window = loop()
     window.close()
@@ -14,8 +14,6 @@ def loop():
     """
     Loop de la ventana de menú que capta los eventos al apretar las opciones
     """
-    sg.theme('SystemDefault')
-
     window = pantalla_principal.build()
 
     while True:
