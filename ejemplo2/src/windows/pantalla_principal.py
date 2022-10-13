@@ -13,7 +13,7 @@ def build():
     font16 = ("Calibri Italic", 16)
 
     layout = [
-        [sg.Text('Expedientes del día {date.today().strftime("%d/%m/%Y")}', font=(font.font_name, 20), size=(30, 1))],
+        [sg.Text(f'Expedientes del día {date.today().strftime("%d/%m/%Y")}', font=(font.font_name, 20), size=(30, 1))],
         [sg.HorizontalSeparator()],
         [sg.Button("Ingresar expendiente", key='-INGRESAR_EXPEDIENTE-', tooltip='Permite ingresar un expediente nuevo',
                       font=(font.font_name, 11))
