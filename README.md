@@ -3,7 +3,10 @@ Material para el curso DESARROLLO DE APLICACIONES DE ESCRITORIO PYTHON - IPAP
 
 ## Módulo 4
 
-Material para el módulo 4. Para más detalle leer el pdf de la clase y ver el video de la clase. 
+Material para el módulo 4. 
+
+- La carpeta `ejemploFinal` contiene la última modificación del proyecto armado en el Módulo 3.
+- La carpeta `ejemploElementos` contiene un ejemplo mostrando el uso de los elementos más comunes.
 
 ![imagen](https://user-images.githubusercontent.com/6611118/196064010-7999830e-65d8-45bd-a90b-43cc34d6e5e3.png)
 
