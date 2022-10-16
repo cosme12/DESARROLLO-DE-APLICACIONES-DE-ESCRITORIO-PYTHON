@@ -1,6 +1,6 @@
 import PySimpleGUI as sg
-from src.windows import pantalla_principal
-from src.component import ingresar_expediente
+from src.windows import nueva_ventana1
+
 
 def start():
     """
@@ -14,19 +14,15 @@ def loop():
     """
     Loop de la ventana de menú que capta los eventos al apretar las opciones
     """
-    sg.theme('SystemDefault')
+    
 
-    window = pantalla_principal.build()
+    window = nueva_ventana1.build()
 
     while True:
         event, values = window.read()
 
         if event in (sg.WINDOW_CLOSED, "Exit", "-exit-", "Salir"):
             break
-
-        elif event == '-INGRESAR_EXPEDIENTE-':
-            ingresar_expediente.start()
-
 
     return window
 
