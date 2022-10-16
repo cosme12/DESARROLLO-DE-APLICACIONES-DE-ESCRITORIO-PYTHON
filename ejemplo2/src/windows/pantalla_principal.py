@@ -18,7 +18,7 @@ def build():
         [sg.Button("Ingresar expendiente", key='-INGRESAR_EXPEDIENTE-', tooltip='Permite ingresar un expediente nuevo',
                       font=(font.font_name, 11))
         ],
-        [sg.Table(values=[["-", "-", "-", "-", "-", "-"]], key="-TABLA_VENTAS_CAJA-",
+        [sg.Table(values=[["-", "-", "-", "-", "-", "-"]], key="-TABLA_EXPEDIENTE-",
                   justification="c",
                   headings=[" Código ", "     Empresa     ", "   CUIT   ", " Teléfono ", " Categoría "],
                   row_height=20, num_rows=10, header_background_color="#FF8000")],
