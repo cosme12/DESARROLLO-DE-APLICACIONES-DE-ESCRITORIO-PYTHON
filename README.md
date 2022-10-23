@@ -1,18 +1,11 @@
 # Curso GUI - IPAP
 Material para el curso DESARROLLO DE APLICACIONES DE ESCRITORIO PYTHON - IPAP
 
-## Módulo 4
+## Módulo 5
 
-Material para el módulo 4. 
+Material para el módulo 5. 
 
-- La carpeta `ejemploFinal` contiene la última modificación del proyecto armado en el Módulo 3.
-- La carpeta `ejemploElementos` contiene un ejemplo mostrando el uso de los elementos más comunes.
-
-![imagen](https://user-images.githubusercontent.com/6611118/196064010-7999830e-65d8-45bd-a90b-43cc34d6e5e3.png)
-
-![imagen](https://user-images.githubusercontent.com/6611118/196064026-22cb5dc3-b6e8-4676-aa62-106686f6d2bd.png)
-
-![imagen](https://user-images.githubusercontent.com/6611118/196064040-03f4bfc5-64a5-4418-85da-1b6c0f38e0a5.png)
+- La carpeta `ejemploFinal` contiene el proyecto del que vamos a generar un ejecutable.
 
 
 
