@@ -1,0 +1,34 @@
+[
+    {
+        "-CODIGO-": 55,
+        "-EMPRESA-": "Empresa1",
+        "-CUIT-": "55555",
+        "-TELEFONO-": "0800-111-2233",
+        "-CATEGORIA-": "tipo2",
+        "id": 1
+    },
+    {
+        "-CODIGO-": 33,
+        "-EMPRESA-": "Empresa2",
+        "-CUIT-": "33555",
+        "-TELEFONO-": "0800-111-2233",
+        "-CATEGORIA-": "tipo1",
+        "id": 2
+    },
+    {
+        "-CODIGO-": 4,
+        "-EMPRESA-": "Empresa3",
+        "-CUIT-": "1212123",
+        "-TELEFONO-": "011-1234-5678",
+        "-CATEGORIA-": "tipo3",
+        "id": 3
+    },
+    {
+        "-CODIGO-": 2,
+        "-EMPRESA-": "3245",
+        "-CUIT-": "345",
+        "-TELEFONO-": "345",
+        "-CATEGORIA-": "tipo1",
+        "id": 4
+    }
+]
